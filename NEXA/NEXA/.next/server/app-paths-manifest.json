@@ -1,7 +1,0 @@
-{
-  "/activar/page": "app/activar/page.js",
-  "/page": "app/page.js",
-  "/dashboard/familia/page": "app/dashboard/familia/page.js",
-  "/dashboard/ajustes/page": "app/dashboard/ajustes/page.js",
-  "/dashboard/perfil/page": "app/dashboard/perfil/page.js"
-}

@@ -1,5 +1,0 @@
-{
-  "crons": [
-    { "path": "/api/rotar-codigos", "schedule": "0 8 * * 1" }
-  ]
-}
