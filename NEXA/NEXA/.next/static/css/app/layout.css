@@ -737,6 +737,9 @@ body{
 .h-full{
   height: 100%;
 }
+.h-9{
+  height: 2.25rem;
+}
 .min-h-\[60px\]{
   min-height: 60px;
 }
@@ -745,6 +748,9 @@ body{
 }
 .min-h-screen{
   min-height: 100vh;
+}
+.min-h-\[56px\]{
+  min-height: 56px;
 }
 .w-1\.5{
   width: 0.375rem;
@@ -787,6 +793,12 @@ body{
 }
 .w-full{
   width: 100%;
+}
+.w-60{
+  width: 15rem;
+}
+.w-9{
+  width: 2.25rem;
 }
 .min-w-0{
   min-width: 0px;
@@ -945,8 +957,16 @@ body{
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
+.space-y-0\.5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));
+}
 .overflow-hidden{
   overflow: hidden;
+}
+.overflow-y-auto{
+  overflow-y: auto;
 }
 .truncate{
   overflow: hidden;
@@ -982,6 +1002,9 @@ body{
 }
 .border-t{
   border-top-width: 1px;
+}
+.border-r{
+  border-right-width: 1px;
 }
 .border-amber-200{
   --tw-border-opacity: 1;
@@ -1124,6 +1147,10 @@ body{
 .bg-white\/90{
   background-color: rgb(255 255 255 / 0.9);
 }
+.bg-nexa-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 110 247 / var(--tw-bg-opacity, 1));
+}
 .bg-gradient-to-br{
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -1221,6 +1248,10 @@ body{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-2\.5{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -1244,6 +1275,9 @@ body{
 }
 .pt-6{
   padding-top: 1.5rem;
+}
+.pb-16{
+  padding-bottom: 4rem;
 }
 .text-left{
   text-align: left;
@@ -1330,6 +1364,9 @@ body{
 }
 .tracking-widest{
   letter-spacing: 0.1em;
+}
+.tracking-tight{
+  letter-spacing: -0.025em;
 }
 .text-amber-500{
   --tw-text-opacity: 1;
@@ -1542,6 +1579,11 @@ body{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.group:hover .group-hover\:bg-nexa-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 63 204 / var(--tw-bg-opacity, 1));
+}
+
 @media (min-width: 640px){
   .sm\:flex-row{
     flex-direction: row;
@@ -1573,6 +1615,21 @@ body{
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
+  .lg\:hidden{
+    display: none;
+  }
+  .lg\:pb-0{
+    padding-bottom: 0px;
+  }
+  .lg\:pl-60{
+    padding-left: 15rem;
   }
 }
 
